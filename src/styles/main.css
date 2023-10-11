@@ -1,0 +1,13 @@
+@import "./base/variables.css";
+@import "./base/globals.css";
+@import "./base/utilities.css";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./layout/services";
+@import "./layout/features";
+@import "./layout/testimonial";
+@import "./layout/dashboard";
+@import "./layout/pricing";
+@import "./layout/footer";

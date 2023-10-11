@@ -1,0 +1,55 @@
+footer {
+	padding: 5rem 0;
+	background-color: var(--color-light-100);
+
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 1.5rem 0;
+		justify-content: center;
+	}
+
+	.ftr-link {
+		padding: 0 1.2rem;
+		color: var(--color-Dark-400);
+	}
+
+	img {
+		width: 4rem;
+		border-radius: 50%;
+	}
+
+	p {
+		letter-spacing: 0.1rem;
+		font-size: var(--fs-icons);
+		color: var(--color-Dark-400);
+	}
+}
+
+.scroll-top {
+	bottom: 5%;
+	right: -3%;
+	display: flex;
+	width: 4.5rem;
+	height: 4.5rem;
+	position: fixed;
+	visibility: hidden;
+	align-items: center;
+	border-radius: 5rem;
+	justify-content: center;
+	background-color: var(--color-primary);
+	transition: visibility 0.3s ease-in-out, right 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+	svg {
+		fill: var(--color-light-100);
+	}
+
+	&:hover {
+		background-color: var(--color-hover);
+	}
+
+	&.show {
+		right: 3%;
+		visibility: visible;
+	}
+}

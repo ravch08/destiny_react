@@ -1,0 +1,38 @@
+#testimonials {
+	.testimonial-item {
+		text-align: center;
+		padding-bottom: 3.5rem;
+	}
+
+	img {
+		width: 8.5rem;
+		border-radius: 50%;
+	}
+
+	p {
+		left: 50%;
+		width: 60%;
+		position: relative;
+		margin: 2rem 0 3rem;
+		transform: translateX(-50%);
+	}
+
+	small {
+		display: block;
+		margin-bottom: 1.5rem;
+	}
+
+	svg {
+		fill: goldenrod;
+	}
+}
+
+.swiper-pagination-bullet-active {
+	background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+	#testimonials p {
+		width: 95%;
+	}
+}
